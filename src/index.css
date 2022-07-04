@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection { background: #d8cde9; }
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #e5e5e5;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #5c14d0;
+  border-radius: 2px;
+}
+.shopname {
+    font-family: 'Audiowide';
+}
+.loader {
+    border: 8px solid #d8cde9;
+    border-top: 8px solid #9369d7;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.frstDrop {
+  position: absolute;
+  top: 5.4rem;
+  left: 43%;
+  z-index: 1000;
+}
+.scndDrop {
+  position: absolute;
+  top: 5.4rem;
+  left: 74%;
+  z-index: 1000;
+}
+.thrdDrop {
+  position: absolute;
+  top: 5.4rem;
+  left: 81.7%;
+  z-index: 1000;
+}
+.frthDrop {
+  position: absolute;
+  top: 5.4rem;
+  left: 89.5%;
+  z-index: 1000;
+}
+body .blackbg {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 150%;
+}
